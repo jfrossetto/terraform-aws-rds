@@ -1,3 +1,4 @@
+variable "instance_name" {}
 variable "db_name" {}
 variable "instance_class" {}
 variable "db_user" {}
