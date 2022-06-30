@@ -7,3 +7,4 @@ variable "multi_az" {
     type = bool
     default = false
 }
+variable "security_rds" {}

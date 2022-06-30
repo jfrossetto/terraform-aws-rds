@@ -8,6 +8,7 @@ resource "aws_db_instance" "default" {
   username             = var.db_user
   password             = var.db_pass
   parameter_group_name = "default.mysql5.7"
+  vpc_security_group_ids = [var.security_rds]
   skip_final_snapshot  = true
   multi_az = var.multi_az
   apply_immediately = true
