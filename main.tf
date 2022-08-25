@@ -12,4 +12,5 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot  = true
   multi_az = var.multi_az
   apply_immediately = true
+  db_subnet_group_name = var.db_subnet_name
 }

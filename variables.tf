@@ -8,3 +8,4 @@ variable "multi_az" {
     default = false
 }
 variable "security_rds" {}
+variable "db_subnet_name" {}
